@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+body {
+    background-color: #393E46;
+    display: block;
+    margin: 8px;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+img {
+    width: 80%;
+}
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+#btnDiv {
+    text-align: center;
+}
+
+#roll_button {
+    background-color: #ff9800; /* Bright orange for a fun, playful look */
+  color: white; /* White text */
+  padding: 15px 30px; /* Comfortable padding for large buttons */
+  font-size: 18px; /* Readable font size */
+  font-family: 'Arial', sans-serif; /* Clean, simple font */
+  border: none; /* No borders for a modern look */
+  border-radius: 50px; /* Rounded edges for a friendly feel */
+  cursor: pointer; /* Pointer cursor to indicate interactivity */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Hover Effect */
+#roll_button:hover {
+    background-color: #e67e22; /* Slightly darker orange on hover */
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+#roll_button:active {
+    transform: translateY(2px); /* Button depress effect */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  }
